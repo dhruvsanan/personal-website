@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "JobFit Analyzer",
     description: "This Application helps you improve your Resume Review with help of GEMINI AI [LLM]",
-    image: "/projects/project1.png",
+    image: "/project1.png",
     tag: ["All", "AI"],
     gitUrl: "https://github.com/dhruvsanan/Google-Gemini-App/tree/master/Resume_Improver",
     previewUrl: "https://resume-improver.streamlit.app",
@@ -17,8 +17,8 @@ const projectsData = [
   {
     id: 2,
     title: "Video Analyser",
-    description: "Train the model using your video",
-    image: "/projects/project2.png",
+    description: "A unique and personalized AI model to analyze your videos and answer questions about your videos",
+    image: "/project2.png",
     tag: ["All", "AI"],
     gitUrl: "https://github.com/dhruvsanan/Google-Gemini-App/tree/master/Train_Using_Video",
     previewUrl: "https://video-analyser.streamlit.app",
@@ -26,38 +26,38 @@ const projectsData = [
   {
     id: 3,
     title: "Resume Shortlister",
-    description: "Shortlist a bunch of resumes for a job description",
-    image: "/projects/project3.png",
+    description: "Shortlist a bunch of resumes for a job description using AI",
+    image: "/project3.png",
     tag: ["All", "AI"],
     gitUrl: "https://github.com/dhruvsanan/Google-Gemini-App/tree/master/Resume_Shortlister",
     previewUrl: "https://resume-shortlister.streamlit.app",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Blog Website",
+    description: "allows users to easily create, manage, and publish blog posts online",
+    image: "/project4.png",
+    tag: ["All", "Full Stack"],
+    gitUrl: "https://github.com/dhruvsanan/blog-site",
+    previewUrl: "https://github.com/dhruvsanan/blog-site",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Car Price Prediction",
+    description: "Estimating the fair market value of a car based on its features, condition, and market data",
+    image: "/project5.png",
+    tag: ["All", "Data Science"],
+    gitUrl: "https://github.com/dhruvsanan/car-price-prediction/tree/main",
+    previewUrl: "https://github.com/dhruvsanan/car-price-prediction/tree/main",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Movie Recomendation System",
+    description: "Predicting user preferences for movies using Machine Learning Models",
+    image: "/project6.png",
+    tag: ["All", "Data Science"],
+    gitUrl: "https://github.com/dhruvsanan/movie-recommendation-system",
+    previewUrl: "https://github.com/dhruvsanan/movie-recommendation-system",
   },
 ];
 
@@ -97,8 +97,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
+          name="Data Science"
+          isSelected={tag === "Data Science"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
           name="Full Stack"
-          isSelected={tag === "FS"}
+          isSelected={tag === "Full Stack"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

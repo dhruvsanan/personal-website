@@ -37,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
             <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                I am a full stack web developer with a passion for creating
-                interactive and responsive web applications. I studied B.S. in Data Science and Programming at Indian Institute of Technology. 
+                I am a full stack developer with a passion for creating
+                interactive and responsive AI web applications. I studied B.S. in Data Science and Programming at Indian Institute of Technology. 
                 I was a Project Mentor/TA and Viva Examiner for Application Development Project (BSCS2006P) and 
                 Machine Learning Practice Project (BSCS2008P) at IIT Madras.
                 I am a quick learner and I am always
@@ -70,7 +70,7 @@ const HeroSection = () => {
             className="col-span-5 place-self-center mt-4 lg:mt-0">
             <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                 <Image
-                  src="/photo.jpg"
+                  src="/my_photo.png"
                   alt="my image"
                   className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                   width={300}
