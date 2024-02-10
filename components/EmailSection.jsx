@@ -7,8 +7,10 @@ import Image from "next/image";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [sending, setSending] = React.useState(false);
 
   const handleSubmit = async (e) => {
+    setSending(true)
     e.preventDefault();
     const data = {
       email: e.target.email.value,
@@ -56,11 +58,15 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/dhruvsanan" passHref legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer">
             <Image src={GithubIcon} alt="Github Icon" />
+            </a>
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/dhruvsanan01/" passHref legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            </a>
           </Link>
         </div>
       </div>
@@ -84,7 +90,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="dhruvsanan01@gmail.com"
+                placeholder="example@gmail.com"
               />
             </div>
             <div className="mb-6">
@@ -119,9 +125,12 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-[#0d6efd] hover:bg-[#005fb4] text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              disabled={sending}
             >
-              Send Message
+              {sending? 
+              (<div>Sending...</div>):
+              (<div>Send Message</div>)}
             </button>
           </form>
         )}

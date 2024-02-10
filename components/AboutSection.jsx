@@ -13,11 +13,14 @@ const TAB_DATA = [
         <li>Flask</li>
         <li>React</li>
         <li>SQL</li>
-        <li>Goggle Gemini</li>
+        <li>Next js</li>
+        <li>Tailwind</li>
         <li>Redis</li>
         <li>Rest APIs</li>
         <li>Hugging face</li>
         <li>Langchain</li>
+        <li>Open AI</li>
+        <li>LLMs</li>
       </ul>
     ),
   },
@@ -36,8 +39,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Proficiency in NumPy Library and Machine Learning Techniques- IIT Madras</li>
+        <li>Applications of machine learning techniques in biology-IIT Madras</li>
       </ul>
     ),
   },

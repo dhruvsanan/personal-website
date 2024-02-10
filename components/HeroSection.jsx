@@ -69,13 +69,30 @@ const HeroSection = () => {
             transition={{ duration: 0.5 }}
             className="col-span-5 place-self-center mt-4 lg:mt-0">
             <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-                <Image
-                  src="/my_photo.png"
+            <svg id="sw-js-blob-svg" viewBox="10 7 80 80" xmlns="http://www.w3.org/2000/svg">
+              <defs>                         
+                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            
+                <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>                            
+                <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>                        
+                </linearGradient>                    
+                </defs>    
+                <mask id="mask1" mask-type="alpha">
+                <path fill="url(#sw-gradient)" d="M18.5,-28.2C24.9,-24.6,31.7,-21.1,35.4,-15.4C39.2,-9.7,40,-1.9,37.2,4.1C34.5,10.2,28.1,14.5,23.2,19.9C18.2,25.3,14.7,31.8,9.5,34C4.3,36.2,-2.5,34.2,-9.4,32.1C-16.3,30.1,-23.1,28,-26.8,23.4C-30.6,18.8,-31.3,11.7,-30.7,5.4C-30.1,-1,-28.3,-6.6,-27.3,-14C-26.3,-21.5,-26,-30.8,-21.6,-35.3C-17.2,-39.8,-8.6,-39.5,-1.3,-37.5C6,-35.5,12.1,-31.8,18.5,-28.2Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" stroke="url(#sw-gradient)">
+                </path>
+                </mask>
+                <g mask="url(#mask1)">          
+                <path fill="url(#sw-gradient)" d="M18.5,-28.2C24.9,-24.6,31.7,-21.1,35.4,-15.4C39.2,-9.7,40,-1.9,37.2,4.1C34.5,10.2,28.1,14.5,23.2,19.9C18.2,25.3,14.7,31.8,9.5,34C4.3,36.2,-2.5,34.2,-9.4,32.1C-16.3,30.1,-23.1,28,-26.8,23.4C-30.6,18.8,-31.3,11.7,-30.7,5.4C-30.1,-1,-28.3,-6.6,-27.3,-14C-26.3,-21.5,-26,-30.8,-21.6,-35.3C-17.2,-39.8,-8.6,-39.5,-1.3,-37.5C6,-35.5,12.1,-31.8,18.5,-28.2Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" stroke="url(#sw-gradient)">
+                </path>
+                <image
+                  href="/my-photo.jpg"
                   alt="my image"
-                  className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                  width={300}
-                  height={300}
+                  width={80}
+                  x={10}
+                  y={11}
                 />
+                </g>  
+            </svg>
+                
               </div>
         </motion.div>
     </section>
