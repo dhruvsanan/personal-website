@@ -37,13 +37,12 @@ const HeroSection = () => {
             />
           </h1>
             <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-                I am a full stack developer with a passion for creating
-                interactive and responsive AI web applications. I studied B.S. in Data Science and Programming at Indian Institute of Technology. 
-                I was a Project Mentor/TA and Viva Examiner for Application Development Project (BSCS2006P) and 
-                Machine Learning Practice Project (BSCS2008P) at IIT Madras.
-                I am a quick learner and I am always
-                looking to expand my knowledge and skill set. I am a team player and
-                I am excited to work with others to create amazing applications.
+            I bridge the gap between AI and reality. As a full-stack Generative AI developer, 
+            I bring both front-end and back-end expertise to building innovative applications 
+            powered by Generative AI. I thrive on turning complex concepts into user-friendly 
+            interfaces allowing AI to unleash its full potential. 
+            I am a quick learner and I am always looking to expand my knowledge and skill set. 
+            I am a team player and I am excited to work with others to create amazing applications.
             </p>
             <div>
               <Link href="/#contact" passHref>
