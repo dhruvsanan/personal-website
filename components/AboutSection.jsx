@@ -63,10 +63,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I have experience working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I bridge the gap between AI and reality. As a full-stack Generative AI developer, 
+          I bring both front-end and back-end expertise to building innovative applications 
+          powered by Generative AI. I thrive on turning complex concepts into user-friendly 
+          interfaces allowing AI to unleash its full potential. 
+          I am a quick learner and I am always looking to expand my knowledge and skill set. 
+          I am a team player and I am excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
