@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "AI Lead Convert",
+    description: "LeadConvert helps creators turn regular content into interactive AI experiences.",
+    image: "/project8.png",
+    tag: ["All", "Full Stack", "AI"],
+    gitUrl: "https://github.com/dhruvsanan/ai-lead-convert",
+    previewUrl: "https://ai-lead-convert.vercel.app",
+  },
+  {
+    id: 2,
     title: "Panda Store",
     description: "Your marketplace for high-quality digital assets.",
     image: "/project7.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "https://panda-store.up.railway.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "JobFit Analyzer",
     description: "This Application helps you improve your Resume Review with help of GEMINI AI [LLM]",
     image: "/project1.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://resume-improver.streamlit.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Video Analyser",
     description: "A unique and personalized AI model to analyze your videos and answer questions about your videos",
     image: "/project2.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://video-analyser.streamlit.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Resume Shortlister",
     description: "Shortlist a bunch of resumes for a job description using AI",
     image: "/project3.png",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://resume-shortlister.streamlit.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Blog Website",
     description: "allows users to easily create, manage, and publish blog posts online",
     image: "/project4.png",
@@ -51,7 +60,7 @@ const projectsData = [
     previewUrl: "https://github.com/dhruvsanan/blog-site",
   },
   {
-    id: 6,
+    id: 7,
     title: "Car Price Prediction",
     description: "Estimating the fair market value of a car based on its features, condition, and market data",
     image: "/project5.png",
@@ -60,7 +69,7 @@ const projectsData = [
     previewUrl: "https://github.com/dhruvsanan/car-price-prediction/tree/main",
   },
   {
-    id: 7,
+    id: 8,
     title: "Movie Recomendation System",
     description: "Predicting user preferences for movies using Machine Learning Models",
     image: "/project6.png",
